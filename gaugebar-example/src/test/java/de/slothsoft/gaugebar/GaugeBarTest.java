@@ -1,12 +1,12 @@
 package de.slothsoft.gaugebar;
 
-import org.junit.Rule;
+import org.junit.ClassRule;
 import org.junit.Test;
 
 public class GaugeBarTest {
 
-    @Rule
-    public JavaFXThreadingRule javafxRule = new JavaFXThreadingRule();
+    @ClassRule
+    public static JavaFXThreadingRule javafxRule = new JavaFXThreadingRule();
 
     private GaugeBar classUnderTest = new GaugeBar();
 

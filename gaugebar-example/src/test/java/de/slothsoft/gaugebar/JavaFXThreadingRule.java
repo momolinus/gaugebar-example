@@ -14,17 +14,17 @@ import org.junit.runners.model.Statement;
 
 /**
  * A JUnit {@link Rule} for running tests on the JavaFX thread and performing
- * JavaFX initialisation. To include in your test case, add the following code:
- * 
+ * JavaFX initialization. To include in your test case, add the following code:
+ *
  * <pre>
  * {@literal @}Rule
  * public JavaFXThreadingRule jfxRule = new JavaFXThreadingRule();
  * </pre>
- * 
+ *
  * copied from
  * http://andrewtill.blogspot.de/2012/10/junit-rule-for-javafx-controller
  * -testing.html
- * 
+ *
  * @author Andy Till
  */
 
